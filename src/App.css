@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #424242;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-container {
+  /*
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: '#F5FCFF';
+  */
+  background-color: #F5FFFF;
+  margin: auto;
+  width: 600px;
+}
+
+.App-welcomeLogo {
+  height: 120px;
+  width: 80px;
+}
+
+.App-welcomeLogoText {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.App-inputBox {
+  background-color: #F5FCFF;
+  width: 100%;
+}
+
+.App-button {
+  background-color: #afdde9;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.App-buttonText {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.App-block {
+  display: block;
+}
+
+button,
+textarea,
+input[type=password] {
+  width: 80%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 720px){
+    .body { flex-wrap: wrap; font-size: 10px; }
+    .App-container { flex-wrap: wrap; }
+    .flex-aside { border: none; width: 100%; }
+    .flex-container { flex-direction: column; padding: 2px; }
+    .flex-item { width: 80vw; }
+    .form-style,
+    .form-style .item-row { width: auto; }
+    .frame-style { width: 80vw; }
+    .tab-style-content { width: auto; }
+    ul.topnav li { padding: 10px; font-size: 10px; }
+    ul.topnav li.right { float: right; }
+    ul.topnav li { float: none; }
+}
