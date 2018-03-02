@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #EEEEEE;
 }
 
 .App-logo {
@@ -29,7 +30,7 @@
   align-items: center;
   background-color: '#F5FCFF';
   */
-  background-color: #F5FFFF;
+  background-color: #EEEEEE;
   margin: auto;
   width: 600px;
 }
@@ -42,20 +43,28 @@
 .App-welcomeLogoText {
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .App-inputBox {
   background-color: #F5FCFF;
+  border-color: #FFF;
+  border-width: thin;
+  font-size: 18px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 100%;
 }
 
 .App-button {
-  background-color: #afdde9;
+  background-color: #757575;
+  color: #FFF;
   margin-top: 15px;
   margin-bottom: 15px;
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 .App-buttonText {
@@ -68,11 +77,7 @@
   display: block;
 }
 
-button,
-textarea,
-input[type=password] {
-  width: 80%;
-}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -82,14 +87,9 @@ input[type=password] {
 @media screen and (max-width: 720px){
     .body { flex-wrap: wrap; font-size: 10px; }
     .App-container { flex-wrap: wrap; }
-    .flex-aside { border: none; width: 100%; }
-    .flex-container { flex-direction: column; padding: 2px; }
-    .flex-item { width: 80vw; }
-    .form-style,
-    .form-style .item-row { width: auto; }
-    .frame-style { width: 80vw; }
-    .tab-style-content { width: auto; }
-    ul.topnav li { padding: 10px; font-size: 10px; }
-    ul.topnav li.right { float: right; }
-    ul.topnav li { float: none; }
+    .button,
+    .textarea,
+    .input[type=password] {
+      width: auto;
+    }
 }

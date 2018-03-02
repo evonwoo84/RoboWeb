@@ -25,6 +25,8 @@ export default class SignInForm extends Component<{}> {
           className="App-inputBox App-block"
           placeholder="Password"/>
 
+        <br/><br/><br/><br/>
+
         <a href
             className="App-button App-buttonText App-block">Sign In
         </a>
@@ -40,6 +42,8 @@ export default class SignInForm extends Component<{}> {
           &nbsp;
           <img src={LogoFacebook} height="30" width="30" />
         </a>
+
+        <br/>
 
       </div>
     )
