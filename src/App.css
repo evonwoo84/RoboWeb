@@ -48,29 +48,29 @@
 
 .App-inputBox {
   background-color: #F5FCFF;
+  border-radius: 10px;
   border-color: #FFF;
   border-width: thin;
   font-size: 18px;
   margin: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px;
+  padding: 5px;
   width: 100%;
 }
 
 .App-button {
   background-color: #757575;
+  border-radius: 10px;
   color: #FFF;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin: 15px;
+  padding: 20px;
   width: 100%;
 }
 
 .App-buttonText {
   text-align: center;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .App-block {
